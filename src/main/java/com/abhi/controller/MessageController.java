@@ -11,4 +11,9 @@ public class MessageController {
         return "Hello from Resource Server.!!!";
     }
 
+    @GetMapping(value = "/secondHello")
+    public String helloSecond(){
+        return "Hello from Resource Server in second way.!!!";
+    }
+
 }
