@@ -17,4 +17,8 @@ public class MessageService {
     public String secondControllerMethod(){
         return "Hello from Second Resource Server and second service method call.";
     }
+
+    public String thirdControllerMethod(){
+        return "Hello from third Resource Server and third service method call.";
+    }
 }
