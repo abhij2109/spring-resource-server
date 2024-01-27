@@ -42,7 +42,7 @@ public class MessageController {
     }
 
     @GetMapping(value = "/seventhHello")
-    public String helloFifth() {
+    public String helloSeventh() {
         return "Hello from Resource Server in Seventh way.";
     }
 
