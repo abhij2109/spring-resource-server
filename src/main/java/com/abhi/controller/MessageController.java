@@ -46,9 +46,9 @@ public class MessageController {
         return "Hello from Resource Server in Seventh way.";
     }
 
-    @GetMapping(value = "/EighthHello")
-    public String helloEighth() {
-        return "Hello from Resource Server in Eighth way.";
+    @GetMapping(value = "/EighthOneHello")
+    public String helloEighthOne() {
+        return "Hello from Resource Server in EighthOne way.";
     }
 
     @GetMapping(value = "/ninthHello")
