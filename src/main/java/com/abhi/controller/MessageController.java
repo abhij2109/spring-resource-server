@@ -29,7 +29,11 @@ public class MessageController {
     @GetMapping(value = "/fourthHello")
     public String helloFourth() {
         return "Hello from Resource Server in Fourth way.";
+    }
 
+    @GetMapping(value = "/fifthHello")
+    public String helloFifth() {
+        return "Hello from Resource Server in Fifth way.";
     }
 
 }
