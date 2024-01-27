@@ -41,4 +41,9 @@ public class MessageController {
         return "Hello from Resource Server in Sixth way.";
     }
 
+    @GetMapping(value = "/seventhHello")
+    public String helloFifth() {
+        return "Hello from Resource Server in Seventh way.";
+    }
+
 }
