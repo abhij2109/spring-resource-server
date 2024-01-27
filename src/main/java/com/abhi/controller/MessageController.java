@@ -23,7 +23,13 @@ public class MessageController {
 
     @GetMapping(value = "/thirdHello")
     public String helloThird(){
-        return "Hello from Resource Server in second way.";
+        return "Hello from Resource Server in Third way.";
+    }
+
+    @GetMapping(value = "/fourthHello")
+    public String helloFourth() {
+        return "Hello from Resource Server in Fourth way.";
+
     }
 
 }
